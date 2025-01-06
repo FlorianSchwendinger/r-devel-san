@@ -55,7 +55,9 @@ RUN apt-get update -qq \
 		xdg-utils \
 		xfonts-base \
 		xvfb \
-		zlib1g-dev 
+		zlib1g-dev \
+		build-essential \
+		cmake 
 
 ## Check out R-devel
 RUN cd /tmp \
